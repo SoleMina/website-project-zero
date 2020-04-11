@@ -1,0 +1,94 @@
+
+/* HOMBRE Y CALZADO*/
+main{
+	display: flex;
+	flex-direction: row;
+	}
+
+
+aside.men-section {
+    width:25%;
+    background-color: #0b254c;
+    padding: 14px;
+}
+.fotos .box-general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.zapatillas-section {
+    padding: 3% 0;
+}
+aside.men-section a{
+    display: block;	
+	margin: 5px;
+	color: black;
+    color: white;
+    text-decoration: none;
+}
+
+section.fotos{width:75%; display: inline-block; }
+section.hombre_content{width:75%; display: flex; flex-direction: column; }
+.men-title {
+    text-align: center;
+    font-size: 30px;
+}
+h1.titulo {
+    font-size: 2.4em;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    padding: 10px;
+}
+article p{
+	padding: 10px;
+}
+
+a.nolink{
+pointer-events: none;
+cursor: default;
+text-decoration: none;
+}
+
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+
+article h1.text-left {
+    font-size: 2.1em;
+    padding-top: 4%;
+}
+
+/*article img{
+	float: left;
+	margin-right: 10px;
+}*/
+
+article p.par02{
+    font-size: 18px;
+}
+
+article.relative{position: relative;}
+div.ji {
+    position: absolute;
+    left: 45%;
+    bottom: 45px;
+}
+
+div.ji2 {
+     color: white;
+    position: absolute;
+    left: 40%;
+    bottom: 92px;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+/**/

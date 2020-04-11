@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+header {
+	display: flex;
+    justify-content: space-between;
+    padding: 0.3% 1% 0.2% 1%;
+    background: white;
+}
+header img {
+	width: 45px;
+}
+header i {
+	font-size: 26px;
+}
+header i.fa-facebook-square {
+	color: #3a56f1;
+}
+header i.fa-tumblr-square {
+	color: #3F51B5;
+}
+header i.fa-search {
+	color: black;
+}
+nav {
+	display: flex;
+    background: #dad8d8bf;
+}
+nav a {
+	color: #504b4b;
+    text-decoration: none;
+    padding: 0.8% 0.5%;
+    flex-grow: 7;
+    border: 1px solid #666;
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+nav a:hover {
+	background: #9e0338;
+    color: white;
+}
+/*Footer*/
+
+footer {
+
+background: #1b1a1abf;
+align-content: center;
+text-align: center;
+color: white;
+padding: 1%;
+}
