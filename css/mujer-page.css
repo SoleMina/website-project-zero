@@ -25,6 +25,7 @@ div.mujer-section {
    padding: 10px;
    justify-content: center;
    text-align: center;
+   width: 300px;
    }
    .right img {
     margin: 5px auto;
@@ -70,3 +71,30 @@ div.mujer-section {
   .friday {
   width: 100%;
   }
+
+  /****/
+  section div.banner img {
+    height: 490px;
+       object-fit: cover;
+  }
+  h3 {
+    padding-left: 6%;
+     font-weight: bold;
+     font-size: 27px;
+     padding-bottom: 10px;
+      padding-top: 20px;
+  }
+  #contenedor {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+ }
+ .division {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.banner-hym {
+  width: 97%;
+}
