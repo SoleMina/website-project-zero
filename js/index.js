@@ -35,7 +35,6 @@ function cambio(){
 $(document).ready(function(){
 	carrusel();
 	
-	/*eventos mouseenter y mouseleave al selector de class rs, donde al pasar el mouse: aparece border de radio, y borde en 0.5s; al salir del selector mostrar sus estilos originales*/
 	$(".rs").mouseover(function(){
 		$(this).attr("style","border-radius:10px; border:1px solid; transform: rotateY(360deg); transition:all 1s");
 	});

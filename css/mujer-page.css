@@ -1,0 +1,72 @@
+div.mujer-section {
+    background-color: #d2d2d2;
+  }
+  main .izquierda {
+    border: 0px;
+    width: 18%;
+    background: #c38686;
+    padding: 1%;
+  }
+  .izquierda a {
+  display: flex;  
+  text-decoration: none;
+  font-weight: 60;
+  font-size: 16px; 
+  color: black;
+  }
+   main {
+   padding: 20px;
+   display: flex;
+   flex-direction: row;
+   } 
+  
+   main .right  { 
+   border: 0px;
+   padding: 10px;
+   justify-content: center;
+   text-align: center;
+   }
+   .right img {
+    margin: 5px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+  article {
+  font-size: xx-large; 
+  margin: 10px;
+  font-weight: 900;
+  }
+  nav a: hoover {
+   background-color: red;
+  }
+   h4 {
+    color: white;
+    padding-top: 10px;
+   }
+  section {
+  padding: 20px;
+  width: 80%;
+  }
+  .chomas {
+  display: flex;
+  justify-content: space-around;  
+  }
+  .calz {
+  display: flex;
+  justify-content: space-around;
+  }
+  .navi {
+  display: flex;
+  justify-content: space-around;
+  }
+  video { 
+  display: inline-block;
+  margin-top: auto;
+  }
+  
+  img {
+  width: 100%;
+  }
+  .friday {
+  width: 100%;
+  }
