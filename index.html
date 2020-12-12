@@ -7,21 +7,13 @@
 	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800&display=swap" rel="stylesheet">
- <style type="text/css" media="screen">
- 	body {
- 		background-color: #DFDFDF;
- 	}
- 	.division figure img {
- 		object-fit: cover;
- 	}
- </style>
 </head>
-<body>
+<body onload="reloj()">
 	<header>
 		<a href="index.html"><img src="imagenes/logo.png" alt=""></a>
 		<div class="icons">
-			<a href="https://www.facebook.com/hmperu/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-			<a href="https://twitter.com/hmperu" target="_blank"><i class="fab fa-tumblr-square"></i></a>
+			<a href="https://www.facebook.com/hmperu/" target="_blank"><i class="fab fa-facebook-square rs"></i></a>
+			<a href="https://twitter.com/hmperu" target="_blank"><i class="fab fa-tumblr-square rs"></i></a>
 		</div>
 	</header>
 	<nav>
@@ -35,11 +27,12 @@
 	</nav>
 	<section class="homepage">
 		<div class="banner">
-			<img src="imagenes/homepage/homepage.jpg" alt="">
+			<img id="baner" src="imagenes/homepage/homepage-1.jpg" alt="">
 		</div>
 	</section>
 	<div id="contenedor" class="homepage-section">
 		<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/r4HuQsNHGIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<p id="hora">Hora:</p>
 		<h3 class="subtitle">Secciones y Ofertas:</h3>
 		<div class="division">
 			<figure>
@@ -56,6 +49,19 @@
 			</figure>
 		</div>
 	</div>
+	<div class="articles-text">
+		<article class="modakids">
+			<img src="imagenes/kids-3.jpg">
+			<h3>Moda Niñas</h3>
+			<p>Este mecanismo no es otra cosa que un malacate, muy sofisticado y preciso, el cual permite: guardar o almacenar la línea; Liberar la línea al curricanear o lanzar el señuelo; Recuperar la línea, nunca el pescado.
+			</p>
+		</article>
+		<article class="modakids">
+			<img src="imagenes/kids-1.jpg">
+			<h3>Moda Niños</h3>
+			<p>Es muy común que se le llame carrete cerrado, es el más fácil de usar y, además de los más económicos; es muy poco común que el sedal se enrede, y su mecanismo de acción es tan cómodo que basta oprimir el clutch (botón) para liberarlo al lanzar la caña y que el señuelo salga disparado con un mínimo de esfuerzo.</p>
+		</article>
+	</div>
 	<h3 class="subtitle">Más Sobre:</h3>
 	<div class="division dv-final">
 		<figure>
@@ -69,7 +75,11 @@
 	    </figure>
 	</div>
 	<footer>
-        <p>Copyright 2019</p>
+        <p>Copyright 2020</p>
    	</footer>
 </body>
 </html>
+
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/index.js"></script>
