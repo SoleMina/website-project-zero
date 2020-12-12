@@ -143,3 +143,11 @@ h2 {
 	width: 100%;
 	height: 350px;
 }
+.form-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-contact h3 {
+	padding: 20px;
+}

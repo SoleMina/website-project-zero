@@ -32,6 +32,50 @@
 			<img src="imagenes/portada-contactanos" alt="">
 		</div>
 	</section>
+	<div class="form-contact">
+		<h3>Rellene el formulario para recibir promociones:</h3>
+		<form name="frmcliente">
+            <table>
+                <tr>
+                    <td>Nombre y Apellidos</td>
+                    <td><input name="txtnombre"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input name="txtemail"></td>
+                </tr>
+                <tr>
+                    <td>Fono del Alumno</td>
+                    <td><input name="txtfono"></td>
+                </tr>
+                <tr>
+                    <td>Interes:</td>
+                    <td>
+                    <select name="cboropa">
+                    <option value="">--Seleccione--</option>
+                    <option value="CI">Ropa de damas</option>
+                    <option value="AS">Ropa de caballeros</option>
+                    <option value="RC">Ropa para niños</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>Distrito:</td>
+                    <td>
+                    <input type="radio" name="rbdistrito" value="BR">Breña<br>
+                    <input type="radio" name="rbdistrito" value="BE">Bellavista<br>
+                    <input type="radio" name="rbdistrito" value="LI">Lima<br>
+                    <input type="radio" name="rbdistrito" value="CR">Central<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Limpiar"></td>
+                    <td><input type="submit" value="Enviar" onClick="validar()"></td>
+                </tr>
+            </table>
+           </form>
+	</div>
 	<div class="text">
 		<h2>Aquí puedes encontrar nuestros locales en Lima</h2>
 	</div>
@@ -62,3 +106,6 @@
     </footer>
 </body>
 </html>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/index.js"></script>
